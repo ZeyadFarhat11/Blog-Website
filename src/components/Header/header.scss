@@ -1,0 +1,44 @@
+@import "../../assets/scss/components.scss";
+
+.header {
+  border-bottom: 1px solid $border-color;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    nav {
+      height: 100%;
+      a {
+        display: inline-block;
+        border-right: 1px solid $border-color;
+        padding: 0 20px;
+        color: $black;
+        height: 100%;
+        display: inline-flex;
+        place-items: center;
+        transition: 0.2s;
+        &:hover {
+          background-color: #f1f1f1;
+        }
+      }
+    }
+    .auth {
+      font-weight: 500;
+      .login {
+        color: #fff;
+        background-color: $main;
+        padding: 7px 20px;
+        height: 40px;
+        border-color: $main;
+        margin-right: 20px;
+        transition: 0.2s;
+        border-width: 2px;
+        &:hover {
+          background-color: transparent;
+          color: $main;
+        }
+      }
+    }
+  }
+}
