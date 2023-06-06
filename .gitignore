@@ -3,3 +3,4 @@ node_modules
 *.env.local
 .eslintrc
 test-api/
+/test-api/*

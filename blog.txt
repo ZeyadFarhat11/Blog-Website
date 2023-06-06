@@ -1,0 +1,19 @@
+BLOG FEATURES ====>
+1) Login
+2) Register
+3) Forget Password
+4) Blogs Page For Every Category
+6) Blog Page
+7) Blog Page Pagination
+8) Blog Comments
+9) About Page
+10) Search Blogs
+11) Sidebar
+12) User Account Page
+13) Email Subscription
+14) Related Blogs
+15) Analytics
+16) Share Blogs
+
+
+REACT-LUNCH
